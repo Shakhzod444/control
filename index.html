@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   <title>Document</title>
+</head>
+
+<body>
+   <div class="container">
+      <div class="top">
+         <div class="a">Учет сотрудников в компании Wepro</div>
+         <div class="b">Общее число сотрудников: <div class="b2">0</div>
+         </div>
+         <div class="v">Премию получат: <div class="v2">0</div>
+         </div>
+      </div>
+
+
+      <div class="top2">
+         <input class="inp" type="text" placeholder="Найти сотрудника ">
+         <div class="bt">
+            <div class="btn">Все сотрудники</div>
+            <div class="btn2">На повышение</div>
+            <div class="btn3">З/п больше 1000$ </div>
+
+
+         </div>
+      </div>
+
+      <div class="centre_people">
+ <!-- ////// для людей   -->
+
+      </div>
+
+<!-- 
+      <div class="bottom">
+         <h1>Добавьте нового сотрудника</h1>
+         <div class="botom_flex">
+
+            <input class="inp2" type="text" placeholder="Как его зовут ?">
+            <input class="inp3" type="number" placeholder="З/П в $ ?">
+            <button>Добавить</button>
+         </div>
+
+      </div>
+ -->
+ <div class="bottom">
+   <h1>Добавьте нового сотрудника</h1>
+   <div class="botom_flex">
+
+      <form name="add">
+           <input class="inp2" name="name" type="text" placeholder="Как его зовут ?">
+           <input class="inp3" name="salary" type="number" placeholder="З/П в $ ?">
+           <button>Добавить</button>
+      </form>
+   </div>
+
+</div>
+
+
+
+
+
+   </div>
+
+   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+   <script src="./script.js"></script>
+</body>
+
+</html>
